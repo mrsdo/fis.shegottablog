@@ -1,9 +1,12 @@
-## Passenger: Sinatra example app
+# Sinatra-MySQL Notes
 
-This is a [Sinatra](http://www.sinatrarb.com/) hello world example app for [the Passenger application server](https://www.phusionpassenger.com/).
+*****
+## See PDF Documentation
+https://github.com/mrsdo/listing_manager/blob/main/documentation/Sinatra%20With%20MySQL.pdf
 
-The `master` branch contains the code without Passenger installed.
+*****
+## Step 1.  Adding the Project Structure
 
-The `end_result` branch contains the code with Passenger installed.
-
-Run `git diff origin/master..origin/end_result` to see what's different.
+Now that I have the ruby application loading on Dreamhost using Passenger Phusion, I'll have to add a documentation file to track the progress as well.
+-[x] Adding project requirements README.md, spec.md, and documentation folder
+-[x] Updating .gitignore to include .idea files and passenger log, PID files
