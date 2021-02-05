@@ -1,12 +1,15 @@
 # Sinatra-MySQL Notes
 
 *****
-## See PDF Documentation
+### See PDF Documentation
 https://github.com/mrsdo/listing_manager/blob/main/documentation/Sinatra%20With%20MySQL.pdf
 
 *****
-## Step 1.  Adding the Project Structure
+### Project NOTES: Passenger Gem
+https://www.phusionpassenger.com/docs/tutorials/quickstart/ruby/
 
-Now that I have the ruby application loading on Dreamhost using Passenger Phusion, I'll have to add a documentation file to track the progress as well.
--[x] Adding project requirements README.md, spec.md, and documentation folder
--[x] Updating .gitignore to include .idea files and passenger log, PID files
+`bundle exec passenger start --address IP`
+
+*****
+### SCHEMA NOTES: Database Associations
+https://www.learnenough.com/action-cable-tutorial/websockets_and_action_cable#sec-base_app
