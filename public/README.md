@@ -8,7 +8,15 @@ https://github.com/mrsdo/listing_manager/blob/main/documentation/Sinatra%20With%
 ### Project NOTES: Passenger Gem
 https://www.phusionpassenger.com/docs/tutorials/quickstart/ruby/
 
-`bundle exec passenger start --address IP`
+To Start passenger: `bundle exec passenger start --address IP`
+
+To Restart passenger: `bundle exec passenger-config restart-app`
+
+View Status: `passenger-status`
+
+QA.  
+- What is my username/password for MySQL on Dreamhost
+- How can I use secret.yml to avoid adding my database credentials to database.yml
 
 *****
 ### SCHEMA NOTES: Database Associations
