@@ -15,7 +15,7 @@ To Restart passenger: `bundle exec passenger-config restart-app`
 View Status: `passenger-status`
 
 QA.  
-- What is my username/password for MySQL on Dreamhost
+- What is my username/password for the databases
 - How can I use secret.yml to avoid adding my database credentials to database.yml
 
 *****
